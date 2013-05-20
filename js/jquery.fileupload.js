@@ -1206,7 +1206,7 @@
         },
 
         _create: function () {
-            this._initDataAttributes();
+        //    this._initDataAttributes();
             this._initSpecialOptions();
             this._slots = [];
             this._sequence = this._getXHRPromise(true);
