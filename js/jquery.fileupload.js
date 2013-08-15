@@ -1065,6 +1065,7 @@
             var options = this.options;
             // Initialize options set via HTML5 data-attributes:
             $.extend(options, $(this.element[0].cloneNode(false)).data());
+        // IE8 can't handle this.   
         //    this._initDataAttributes();
             this._initSpecialOptions();
             this._slots = [];
