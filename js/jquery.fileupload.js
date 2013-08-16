@@ -18,7 +18,7 @@
         // Register as an anonymous AMD module:
         define([
             'jquery',
-            'jquery.ui.widget'
+            'jquery-ui/widget'
         ], factory);
     } else {
         // Browser globals:
@@ -1206,7 +1206,7 @@
         },
 
         _create: function () {
-            this._initDataAttributes();
+//            this._initDataAttributes();
             this._initSpecialOptions();
             this._slots = [];
             this._sequence = this._getXHRPromise(true);
