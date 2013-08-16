@@ -1067,6 +1067,8 @@
             $.extend(options, $(this.element[0].cloneNode(false)).data());
         // IE8 can't handle this. (BON-6147a)  
         //    this._initDataAttributes();
+            options.blueimpFileupload = null;
+            options.Fileupload = null;
             this._initSpecialOptions();
             this._slots = [];
             this._sequence = this._getXHRPromise(true);
